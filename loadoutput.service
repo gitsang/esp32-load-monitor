@@ -1,0 +1,13 @@
+[Unit]
+Description=loadoutput
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Restart=on-failure
+RestartSec=5s
+ExecStart=/usr/local/bin/loadoutput
+
+[Install]
+WantedBy=multi-user.target
