@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	esp32host = "192.168.5.39"
+	esp32host = "loadoutput.dns.army"
 )
 
 func main() {
